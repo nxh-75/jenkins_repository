@@ -1,0 +1,13 @@
+
+sudo vim /etc/profile.d/maven.sh
+
+/opt/apache-maven-3.9.11
+
+
+export M2_HOME=/opt/apache-maven-3.9.11
+export PATH=$M2_HOME/bin:$PATH
+
+
+sudo chmod +x /etc/profile.d/maven.sh
+
+source /etc/profile.d/maven.sh
